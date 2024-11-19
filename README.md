@@ -1,34 +1,34 @@
-# Totalize
+# Totalize 
 
-## Padrão de Commits
+Totalize é um sistema de supermercado desenvolvido em Java, utilizando Java Swing para a interface gráfica. O projeto tem como objetivo desenvolver um sistema de caixa de supermercado eficiente, proporcionando uma experiência intuitiva e fluida tanto para operadores quanto para administradores.
+
+## 🛠️ Tecnologias Utilizadas
+- **Back-End**: SQL e Java
+- **Front-End**: Java Swing
+
+## Como Executar o Projeto
+
+### Pré-requisitos:
+- Java JDK 17 instalado.
+- SQL instalado e configurado.
+- Uma IDE como Eclipse ou IntelliJ IDEA.
+
+### Configuração do Banco de Dados:
+Importe o arquivo SQL disponível na pasta `database` para criar o banco de dados e as tabelas necessárias.
+
+### Execução do Projeto:
+Clone este repositório:
+```bash
+git clone https://github.com/gabisanttos/Totalize.git
 
 ```
-type(scope): !subject <br>
-<!body> <br>
+Abra o projeto em sua IDE e execute a classe principal `App.java` Caso não rode, digite o seguinte comando no terminal:
+```bash
+./gradlew run
+
 ```
 
-- **Type (tipo)**:
-    * O tipo de modificação que foi realizada no projeto
-- **Scope (escopo)**:
-    * A região (pasta, arquivo, ou feature) do projeto onde foi realizada a modificação. <br>
-    *Obs: Para mudanças que afetam todo o projeto não é necessário informar o escopo.*
-- **Subject (asunto)**:
-    * Uma descrição curta da modificação realizada.
-- **Body (corpo)** {opcional}:
-    * Uma descrição detalhada da modificação realizada
-
-### Tipo de Commit do projeto:
-- `feat` : indica o desenvolvimento de uma nova funcionalidade ao projeto. <br>
-**Exemplo**: Acréscimo de um serviço, funcionalidade, endpoint, etc.
-
-- `refactor`: usado quando houver uma refatoração de código que não tenha qualquer tipo de impacto na lógica/regras de negócio do sistema. <br>
-**Exemplo**: Mudanças de código após um code review
-
-- `fix`: utilizado quando há correção de erros que estão gerando bugs no sistema. <br>
-**Exemplo**: Aplicar tratativa para uma função que não está tendo o comportamento esperado e retornando erro.
-
-- `style`: empregado quando há mudanças de formatação e estilo do código que não alteram o sistema de nenhuma forma. <br>
-**Exemplo**: Arrumar indentações, remover espaços em brancos, remover comentários, etc..
-
-- `chore`: indica mudanças no projeto que não afetem o sistema ou arquivos de testes. São mudanças de desenvolvimento. <br>
-**Exemplo**: Mudar regras do eslint, adicionar prettier, adicionar mais extensões de arquivos ao .gitignore, modificar estrutura de pastas.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f4bb6d09-1905-4b0d-848b-c3b137f5d0c9" alt="Descrição da imagem 1" width="210">
+  <img src="https://github.com/user-attachments/assets/b3765af7-312f-44f3-b160-47967fd68745" alt="Descrição da imagem 2" width="350">
+</p>
